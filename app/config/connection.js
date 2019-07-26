@@ -29,13 +29,13 @@ connection.connect(function(err) {
 module.exports = connection;
 
 function grabmyhost(){
-  return base64.decode("cmRzLWRiLXRlc3QtcHJvamVjdC5jNmJhdW94cnc4ZmwudXMtZWFzdC0xLnJkcy5hbWF6b25hd3MuY29t");
+  return base64.decode("dWF0LXJkcy1kYXRhYmFzZS5jNmJhdW94cnc4ZmwudXMtZWFzdC0xLnJkcy5hbWF6b25hd3MuY29t");
 }
 
 function grabmyuser(){
-  return base64.decode("Y29zdGFyZ2M=");
+  return base64.decode("ZW5jcnlwdGVkX3VzZXI=");
 }
 
 function grabmypass(){
-  return base64.decode("bXlzZWNyZXRwYXNzd29yZA==");
+  return base64.decode("cGFzc3dvcmQ=");
 }
